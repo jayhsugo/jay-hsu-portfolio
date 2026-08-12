@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { access, readFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import test from "node:test";
 
 const root = new URL("../", import.meta.url);
@@ -12,6 +12,7 @@ test("builds a GitHub Pages-ready portfolio", async () => {
   assert.match(html, /\/jay-hsu-portfolio\/assets\//);
   assert.doesNotMatch(html, /chatgpt\.site|codex-preview|vinext/);
 
-  await access(new URL("dist/hero-background.png", root));
-  await access(new URL("dist/og.png", root));
+  assert.match(html, /fonts\.googleapis\.com/);
+  assert.doesNotMatch(html, /og\.png|hero-background\.png/);
+  assert.doesNotMatch(html, /[\u3400-\u9FFF]/);
 });
