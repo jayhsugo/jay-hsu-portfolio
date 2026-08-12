@@ -78,7 +78,7 @@ export default function Home() {
         </nav>
         <a
           className="header-cta"
-          href="https://www.linkedin.com/in/jay-hsu-429436177/"
+          href="https://www.linkedin.com/in/jayhsugo/"
           target="_blank"
           rel="noreferrer"
         >
@@ -106,7 +106,7 @@ export default function Home() {
               </a>
               <a
                 className="button button-ghost"
-                href="https://www.linkedin.com/in/jay-hsu-429436177/"
+                href="https://www.linkedin.com/in/jayhsugo/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -267,7 +267,7 @@ export default function Home() {
           </p>
           <a
             className="button button-light"
-            href="https://www.linkedin.com/in/jay-hsu-429436177/"
+            href="https://www.linkedin.com/in/jayhsugo/"
             target="_blank"
             rel="noreferrer"
           >
