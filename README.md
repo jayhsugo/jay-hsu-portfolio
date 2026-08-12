@@ -3,13 +3,13 @@
 Public portfolio for Jay Hsu, a senior mobile and product engineer working
 across Flutter, iOS, Android, Web, cloud services, Edge AI, and IoT.
 
+Live site: <https://jayhsugo.github.io/jay-hsu-portfolio/>
+
 The case studies are intentionally anonymized. They describe engineering
 responsibilities and problem areas without exposing client names, internal
 architecture, product identifiers, or confidential metrics.
 
 ## Development
-
-Requires Node.js `>=22.13.0`.
 
 ```bash
 npm install
@@ -22,4 +22,4 @@ npm run dev
 npm test
 ```
 
-The project uses vinext and is configured for deployment through OpenAI Sites.
+Pushes to `main` are deployed automatically through GitHub Pages.
