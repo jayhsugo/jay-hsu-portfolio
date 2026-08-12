@@ -259,11 +259,11 @@ export default function Home() {
       <section className="contact-section">
         <div className="contact-glow" aria-hidden="true" />
         <div className="shell contact-inner">
-          <p className="kicker kicker-light">Let&apos;s connect</p>
+          <p className="kicker kicker-light">Exchange ideas</p>
           <h2>Have a product problem<br />that crosses boundaries?</h2>
           <p>
-            I am open to conversations about senior mobile engineering,
-            product architecture, SaaS, cloud integration, Edge AI, and IoT.
+            I enjoy exchanging ideas about mobile engineering, product
+            architecture, SaaS, cloud integration, Edge AI, and IoT.
           </p>
           <a
             className="button button-light"
@@ -271,7 +271,7 @@ export default function Home() {
             target="_blank"
             rel="noreferrer"
           >
-            Start a conversation on LinkedIn <span aria-hidden="true">↗</span>
+            Connect on LinkedIn <span aria-hidden="true">↗</span>
           </a>
         </div>
       </section>
